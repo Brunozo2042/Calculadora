@@ -1,8 +1,73 @@
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin-top: 60px;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+* {
+    font-family: 'League Spartan', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: hsl(222, 26%, 31%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#teclado {
+    display: grid;
+    /* Defina o número de colunas e o tamanho das colunas */
+    /* 3 colunas de tamanho igual (1fr cada) */
+    grid-template-columns: repeat(4, 1fr);
+    /* Defina o número de linhas e o tamanho das linhas */
+    /* 2 linhas, cada uma com 100px de altura */
+    grid-template-rows: repeat(5, 100px);
+    /* Espaço entre as células da grid */
+    gap: 20px;
+
+    max-width: 600px;
+}
+
+.double {
+    grid-column: span 2;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    font-size: 32px;
+}
+
+.btn1 {
+    background-color: hsl(30, 25%, 89%);
+    box-shadow: 0px 5px hsl(28, 16%, 65%);
+    color: (221, 14%, 31%);
+}
+
+.btn2 {
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 0px 5px hsl(224, 28%, 35%);
+    color: hsl(30, 25%, 89%);
+}
+
+.btn3 {
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 0px 5px hsl(6, 70%, 34%);
+    color: hsl(30, 25%, 89%);
 }
