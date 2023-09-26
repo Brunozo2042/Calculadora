@@ -15,6 +15,24 @@
     margin: 0;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+#themeChose {
+    display: flex;
+}
+
+.chks {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
 /* BODY */
 
 body {
@@ -31,6 +49,14 @@ body {
     background-color: hsl(222, 26%, 31%);
 }
 
+.body-theme2 {
+    background-color: hsl(0, 0%, 90%);
+}
+
+.body-theme3 {
+    background-color: hsl(268, 75%, 9%);
+}
+
 #container {
     display: flex;
     flex-direction: column;
@@ -45,7 +71,6 @@ body {
     width: 100%;
     height: 100px;
     margin: 20px 0;
-    background-color: hsl(224, 36%, 15%);
     border-radius: 15px;
     display: flex;
     justify-content: end;
@@ -56,6 +81,17 @@ body {
 
 .display-theme1 {
     color: white;
+    background-color: hsl(224, 36%, 15%);
+}
+
+.display-theme2 {
+    color: hsl(60, 10%, 19%);
+    background-color: hsl(0, 0%, 93%);
+}
+
+.display-theme3 {
+    color: hsl(52, 100%, 62%);
+    background-color: hsl(268, 71%, 12%);
 }
 
 /* TECLADO */
@@ -80,6 +116,14 @@ body {
     background-color: hsl(223, 31%, 20%);
 }
 
+.teclado-theme2 {
+    background-color: hsl(0, 5%, 81%);
+}
+
+.teclado-theme3 {
+    background-color: hsl(268, 71%, 12%);
+}
+
 .double {
     grid-column: span 2;
 }
@@ -99,10 +143,16 @@ body {
     cursor: pointer;
 }
 
+/* BOTÕES TEMA 1 */
+
 .btn1-theme1 {
     background-color: hsl(30, 25%, 89%);
     box-shadow: 0px 5px hsl(28, 16%, 65%);
     color: hsl(221, 14%, 31%);
+}
+
+.btn1-theme1:hover {
+    background-color: hsl(0, 0%, 100%);
 }
 
 .btn2-theme1 {
@@ -115,4 +165,52 @@ body {
     background-color: hsl(6, 63%, 50%);
     box-shadow: 0px 5px hsl(6, 70%, 34%);
     color: hsl(30, 25%, 89%);
+}
+
+/* BOTÕES TEMA 2 */
+
+.btn1-theme2 {
+    background-color: hsl(30, 25%, 89%);
+    box-shadow: 0px 5px hsl(28, 16%, 65%);
+    color: hsl(221, 14%, 31%);
+}
+
+.btn1-theme2:hover {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.btn2-theme2 {
+    background-color: hsl(185, 42%, 37%);
+    box-shadow: 0px 5px hsl(185, 58%, 25%);
+    color: hsl(30, 25%, 89%);
+}
+
+.btn3-theme2 {
+    background-color: hsl(25, 98%, 40%);
+    box-shadow: 0px 5px hsl(25, 99%, 27%);
+    color: hsl(30, 25%, 89%);
+}
+
+/* BOTÕES TEMA 3 */
+
+.btn1-theme3 {
+    background-color: hsl(268, 47%, 21%);
+    box-shadow: 0px 5px hsl(290, 70%, 36%);
+    color: hsl(52, 100%, 62%);
+}
+
+.btn1-theme3:hover {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.btn2-theme3 {
+    background-color: hsl(281, 89%, 26%);
+    box-shadow: 0px 5px hsl(285, 91%, 52%);
+    color: hsl(30, 25%, 89%);
+}
+
+.btn3-theme3 {
+    background-color: hsl(176, 100%, 44%);
+    box-shadow: 0px 5px hsl(177, 92%, 70%);
+    color: hsl(198, 20%, 13%);
 }

@@ -21,12 +21,31 @@
 
     <!-- Escolha de tema -->
     <header>
-      calc
-      <div id="themeChose"></div>
+      <div>
+        calc
+      </div>
+      <div id="themeChose">
+        <label for="">THEME</label>
+
+        <div class="chks">
+          <input type="radio" name="theme" id="chk1" onclick="changeTheme(1)" checked>
+          <label for="chk1">1</label>
+        </div>
+
+        <div class="chks">
+          <input type="radio" name="theme" id="chk2" onclick="changeTheme(2)">
+          <label for="chk2">2</label>
+        </div>
+
+        <div class="chks">
+          <input type="radio" name="theme" id="chk3" onclick="changeTheme(3)">
+          <label for="chk3">3</label>
+        </div>
+      </div>
     </header>
 
     <!-- Display -->
-    <div id="display">123,4</div>
+    <div id="display">399,981</div>
 
     <!-- Teclado -->
     <div id="teclado"></div>
