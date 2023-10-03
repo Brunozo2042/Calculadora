@@ -15,10 +15,22 @@
     margin: 0;
 }
 
-header {
+#header {
     display: flex;
     justify-content: space-between;
     width: 90%;
+}
+
+.header-theme1 {
+    color: white;
+}
+
+.header-theme2 {
+    color: (60, 10%, 19%);
+}
+
+.header-theme3 {
+    color: hsl(52, 100%, 62%);
 }
 
 #themeChose {
